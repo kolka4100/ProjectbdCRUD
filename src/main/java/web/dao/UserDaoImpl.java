@@ -9,8 +9,8 @@ import java.util.List;
 
 @Component
 @Transactional
-public class UserDAOImpl implements UserDAO {
-    public UserDAOImpl() {
+public class UserDaoImpl implements UserDao {
+    public UserDaoImpl() {
     }
 
     @PersistenceContext

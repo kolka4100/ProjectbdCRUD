@@ -2,17 +2,17 @@ package web.service;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import web.dao.UserDAO;
+import web.dao.UserDao;
 import web.model.User;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService{
-    private UserDAO userDAO;
+    private UserDao userDAO;
 
     @Autowired
-    public void setUserDAO(UserDAO userDAO) {
+    public void setUserDAO(UserDao userDAO) {
         this.userDAO = userDAO;
     }
 
